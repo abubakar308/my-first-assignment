@@ -11,7 +11,7 @@
     justify-content: center;
     align-items: center;
 }
-.banner-header{
+.banner-heder{
     color: rgb(13, 19, 33);
 font-family: Azeret Mono;
 font-size: 48px;
@@ -33,4 +33,27 @@ font-family: Azeret Mono;
 font-size: 20px;
 font-weight: 600;
 padding: 15px 20px;
+}
+
+#footer{
+    width: 1440px;
+height: 100px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-name{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 16px;
+}
+.footer-icon{
+margin: 0px 24px;
+}
+.footer-icon>a{
+    margin: 0px 10px;
 }
