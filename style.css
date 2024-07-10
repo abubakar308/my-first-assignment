@@ -37,32 +37,8 @@ font-weight: 600;
 padding: 15px 20px;
 }
 
-/* footer section */
-#footer{
-    width: 1440px;
-height: 100px;
-border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
-    display: flex;
-    justify-content: space-between;
-    padding: 50px;
-}
-.footer-name{
-    color: rgb(13, 19, 33);
-font-family: Azeret Mono;
-font-size: 20px;
-font-weight: 600;
-margin: 0px 16px;
-}
-.footer-icon{
-margin: 0px 24px;
-}
-.footer-icon>a{
-    margin: 0px 10px;
-}
-
+/* Why Web Development?? */
 .web-development{
-    border: 2px solid red;
     width: 1140px;
     height: 1393px;
     border-radius: 16px;
@@ -90,7 +66,6 @@ font-weight: 400;
 text-align: center;
 }
 .web-top{
-    border: 2px solid blue;
     width: 850px;
 height: 240px;
 margin: 32px 0;
@@ -126,3 +101,64 @@ justify-content: space-between;
 align-items: center;
 padding: 30px;
 }
+
+/* My Inspiration */
+.Inspiration{
+    width: 1140px;
+height: 775px;
+margin: 50px auto;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.inspiration-top{
+    width: 800px;
+height: 100px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+.inspiration-video{
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+margin: 48px 0px;
+
+}
+iframe{
+    width: 1000px;
+    height: 600px;
+    box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.2);
+border-radius: 16px;
+padding: 32px;;
+}
+
+/* footer section */
+#footer{
+    width: 1440px;
+height: 100px;
+border-radius: 16px;
+background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.footer-name{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+margin: 0px 16px;
+}
+.footer-icon{
+margin: 0px 24px;
+}
+.footer-icon>a{
+    margin: 0px 10px;
+}
+
