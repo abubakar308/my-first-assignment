@@ -2,6 +2,8 @@
 *{
     box-sizing: border-box;
 }
+
+/* banner sction */
 .banner{
     background-image: url(assets/Hero-bg.png);
     width: 1440px;
@@ -35,6 +37,7 @@ font-weight: 600;
 padding: 15px 20px;
 }
 
+/* footer section */
 #footer{
     width: 1440px;
 height: 100px;
@@ -56,4 +59,70 @@ margin: 0px 24px;
 }
 .footer-icon>a{
     margin: 0px 10px;
+}
+
+.web-development{
+    border: 2px solid red;
+    width: 1140px;
+    height: 1393px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 50px auto;
+    padding: 50px 60px 50px 60px;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.web-heder{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+text-align: center;
+}
+.web-description{
+    color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+text-align: center;
+}
+.web-top{
+    border: 2px solid blue;
+    width: 850px;
+height: 240px;
+margin: 32px 0;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+.web-mid{
+    width: 850px;
+height: 240px;
+margin: 32px 0;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+.web-bottom{
+    width: 850px;
+height: 240px;
+margin: 32px 0;
+border-radius: 16px;
+background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
 }
