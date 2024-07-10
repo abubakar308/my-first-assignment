@@ -138,12 +138,129 @@ border-radius: 16px;
 padding: 32px;;
 }
 
+/* My Current Target */
+.my-current-target{
+    width: 1140px;
+    height: 500px;
+    margin: 40px auto;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+.target-info{
+    width: 852px;
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+}
+.card{
+    width: 1140px;
+height: 299px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+}
+.html-card{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+}
+.css-card{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+}
+.javascript-card{
+    width: 364px;
+height: 299px;
+border-radius: 16px;
+background: rgba(255, 76, 30, 0.05);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 40px;
+}
+
+/* I need support */
+.support{
+    width: 1140px;
+height: 313px;
+margin: 50px auto;
+background-image: url(assets/handshake.jpg);
+background-size: cover;
+background-position: center;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+
+}
+.support-details{
+    
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.support-h1{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 32px;
+font-weight: 700;
+text-align: center;
+}
+.support-desc{
+    color: rgb(255, 255, 255);
+font-family: Azeret Mono;
+font-size: 16px;
+font-weight: 400;
+}
+input{
+    width: 548px;
+height: 57px;
+padding: 19px 20px 19px 20px;
+box-sizing: border-box;
+border: 1px solid rgba(13, 19, 33, 0.15);
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+}
+.submit{
+    width: 120px;
+height: 57px;
+    border-radius: 8px;
+background: rgb(255, 255, 255);
+color: rgb(13, 19, 33);
+font-family: Azeret Mono;
+font-size: 20px;
+font-weight: 600;
+}
+
 /* footer section */
 #footer{
     width: 1440px;
 height: 100px;
 border-radius: 16px;
-background: rgba(13, 19, 33, 0.03);
+background: rgb(228, 219, 219);
     display: flex;
     justify-content: space-between;
     padding: 50px;
