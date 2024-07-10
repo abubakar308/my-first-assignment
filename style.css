@@ -76,7 +76,10 @@ display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: center;
-padding: 30px;
+padding: 20px;
+}
+.top-left{
+    width: 477px;
 }
 .web-mid{
     width: 850px;
@@ -89,6 +92,9 @@ flex-direction: row;
 justify-content: space-between;
 align-items: center;
 padding: 30px;
+}
+.mid-right{
+    width: 477px;
 }
 .web-bottom{
     width: 850px;
